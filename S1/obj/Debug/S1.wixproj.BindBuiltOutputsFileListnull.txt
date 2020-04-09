@@ -1,0 +1,2 @@
+C:\Projects\SharedData\AjayWorkspace\MinorUpgrade\Calculator\S1\bin\Debug\S1.msi
+C:\Projects\SharedData\AjayWorkspace\MinorUpgrade\Calculator\S1\bin\Debug\S1.wixpdb

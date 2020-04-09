@@ -1,0 +1,3 @@
+C:\Projects\SharedData\AjayWorkspace\MinorUpgrade\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Projects\SharedData\AjayWorkspace\MinorUpgrade\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Projects\SharedData\AjayWorkspace\MinorUpgrade\Calculator\Calculator\bin\Debug\Calculator.pdb

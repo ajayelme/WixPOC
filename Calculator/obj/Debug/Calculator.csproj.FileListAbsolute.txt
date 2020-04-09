@@ -1,0 +1,19 @@
+C:\AjayWorkspace\C#.Net POC\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\AjayWorkspace\C#.Net POC\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\AjayWorkspace\C#.Net POC\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\AjayWorkspace\C#.Net POC\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\AjayWorkspace\C#.Net POC\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+C:\AjayWorkspace\C#.Net POC\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\AjayWorkspace\C#.Net POC\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\AjayWorkspace\C#.Net POC\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\AjayWorkspace\C#.Net POC\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\AjayWorkspace\C#.Net POC\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Projects\SharedData\AjayWorkspace\MinorUpgrade\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Projects\SharedData\AjayWorkspace\MinorUpgrade\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Projects\SharedData\AjayWorkspace\MinorUpgrade\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Projects\SharedData\AjayWorkspace\MinorUpgrade\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Projects\SharedData\AjayWorkspace\MinorUpgrade\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Projects\SharedData\AjayWorkspace\MinorUpgrade\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Projects\SharedData\AjayWorkspace\MinorUpgrade\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Projects\SharedData\AjayWorkspace\MinorUpgrade\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Projects\SharedData\AjayWorkspace\MinorUpgrade\Calculator\Calculator\obj\Debug\Calculator.pdb

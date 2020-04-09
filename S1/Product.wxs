@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"><?define Calculator_TargetDir=$(var.Calculator.TargetDir)?>
+	<Product Id="73ddaf48-7072-40d8-ab31-5c73818edd9f" Name="S1" Language="1033" Version="3.0.0.0" Manufacturer="AjayElme" UpgradeCode="14e9a268-8f87-43ee-b131-bf5896f58dcf">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+    <UIRef Id="WixUI_Minimal" />
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<!--<MediaTemplate />-->
+    <Upgrade Id="14e9a268-8f87-43ee-b131-bf5896f58dcf">
+      <UpgradeVersion Minimum="3.0.0.0" Maximum="99.0.0.0" Property="PREVIOUSVERSIONSINSTALLED" IncludeMinimum="yes" IncludeMaximum="no" />
+    </Upgrade>
+    <Media Id='1' Cabinet='MyCompany.cab' EmbedCab='yes' DiskPrompt='DiskPrompt'/>
+    <Property Id='DiskPrompt' Value='I-Gear DTU 5.6.2 Installation' />
+
+    <Property Id='REINSTALLMODE' Value='amus'/>
+    <Property Id='REINSTALL' Value='all'/>
+    
+    <Feature Id="ProductFeature" Title="S1" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+	</Product>
+  
+
+  
+  <Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="S1" />
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+			<!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
+			<!-- <Component Id="ProductComponent"> -->
+				<!-- TODO: Insert files, registry keys, and other resources here. -->
+			<!-- </Component> -->
+			<Component Id="Calculator.exe" Guid="b91e1ffa-af7e-492f-8e32-d1b06db4011b">
+			  <File Id="Calculator.exe" Name="Calculator.exe" Source="$(var.Calculator_TargetDir)Calculator.exe" />
+			</Component>
+			<Component Id="Calculator.exe.config" Guid="a466a704-25d8-4079-818f-16686fa171e5">
+			  <File Id="Calculator.exe.config" Name="Calculator.exe.config" Source="$(var.Calculator_TargetDir)Calculator.exe.config" />
+			</Component>
+			<Component Id="Calculator.pdb" Guid="fed17a0e-9d9b-4be9-ae0f-289a77f04a6e">
+			  <File Id="Calculator.pdb" Name="Calculator.pdb" Source="$(var.Calculator_TargetDir)Calculator.pdb" />
+			</Component>
+		</ComponentGroup>
+	</Fragment>
+</Wix>

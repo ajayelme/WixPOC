@@ -1,0 +1,8 @@
+C:\AjayWorkspace\C#.Net POC\Calculator\S1\bin\Debug\S1.msi
+C:\AjayWorkspace\C#.Net POC\Calculator\S1\bin\Debug\S1.wixpdb
+obj\Debug\Product.wixobj
+obj\Debug\S1.wixproj.BindContentsFileListnull.txt
+obj\Debug\S1.wixproj.BindOutputsFileListnull.txt
+obj\Debug\S1.wixproj.BindBuiltOutputsFileListnull.txt
+C:\Projects\SharedData\AjayWorkspace\MinorUpgrade\Calculator\S1\bin\Debug\S1.msi
+C:\Projects\SharedData\AjayWorkspace\MinorUpgrade\Calculator\S1\bin\Debug\S1.wixpdb
